@@ -12,7 +12,7 @@ data = yf.download(ticker, start=start_date, end=end_date)
 with st.expander('Technical Analysis Dashboard'):
     st.subheader('Technical Analysis Dashboard')
     df = data.copy()
-    ind_list = ta.indicators(as_list=True)  # List of all available indicators
+    ind_list = ta.indicators()
     
     technical_indicator = st.selectbox('Tech Indicator', options=ind_list)
     method = technical_indicator

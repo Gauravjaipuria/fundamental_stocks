@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+yfinance
+plotly
+openpyxl
+alpha_vantage
+stocknews
+pyChatGPT
